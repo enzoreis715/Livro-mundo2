@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+list-style: none;
+}
+body{
+    background-color: darkgrey;
+    margin:0px;
+    font-family:cursive;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    border: 0;
+    margin: 0;
+    display: flex;
+}
+header h1{
+    padding: 0;
+    padding-right: 300px;
+}
+div.pesquisar{
+   background-color: aliceblue; 
+   padding: 0px 10px 2.5px 10px;
+   width: 150px;
+   height: 20px;
+   border-radius: 25px;  
+}
+h2.pesquisar{
+    color: #888484; 
+   display: block;
+   font-size: small;
+}
+li.pesquisar{
+    padding-top: 2px;
+    padding-left: 200px;
+    list-style: none;
+}
+.menu ul{
+list-style: none;
+}
+.menu > ul{
+display: flex;
+}
+.menu li{
+position: relative;
+}
+.menu a{
+    padding-left: 10;
+    display: block;
+    color: #e9e5e5;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: rgb(86, 86, 94);
+}
+.submenu{
+    border-radius: 10px;
+    padding: 0%;
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 90px;
+}
+.submenu a{
+    padding: 5px 5px 10px 10px; 
+}
+.menu li:hover .submenu{display: block;}
+.menu{
+    background-color: rgb(153, 217, 234);
+    padding: 0px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.categoria{
+    width: 20px;
+    height: 20px;
+}
+img.categoria:hover{
+    background-color: #000;
+}
+.contato{
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+footer{
+    margin-top: 25px;
+    background-color: green;
+    color: rgb(0, 0, 0);
+}
+.rodape{
+    background-color: rgb(1, 43, 1);
+}
+div h3{
+    text-align: center;
+}
+.andar{
+    background-color: burlywood;
+    border-radius: 25px;
+    display: flex;
+}
+.mercadoria{
+    border-radius: 25px;
+    width: 175px;
+    height: 175px;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.setor{
+    height: 275px;
+    width: 250px;
+    margin: 10px;
+    background-color: cadetblue;
+    border-radius: 25px;
+    justify-items: center;
+}
+div button{
+    border-radius: 25px;
+    background-color: green;
+}
+div button:hover {
+background-color: #888484;
+    color: #5c5757;
+}
+button.carrinho{
+    background-color: darkorchid;
+}
+button.carrinho:hover{
+    background-color: #888484;
+    color: #5c5757;
+}
+button{
+    background-color: black;
+    border-radius: 25px;
+     color: aliceblue;
+}
+button:hover{
+color: #000;
+background-color: darkgrey;
+}
+main{
+    background-color: rgb(134, 137, 139);
+    border-radius: 25px;
+    margin-top: 10px;
+    justify-items: center;
+    height: 500px;
+    width: 500px;
+    margin-left: 75px;
+}
+main div{
+    color: darkgray;
+    margin-top: 125px;
+    background-color: #dfd7d7;
+    border-radius:10px;
+    width: 200px;
+}
+main div.login{
+    width: 300px;
+    margin:25px;
+    background-color: rgb(134, 137, 139);
+}
+div.login a{ 
+    margin: 0px;
+    margin-left: 70px;
+}
+h1.carrinho{
+    text-align: center;
+}
+main a{
+    margin-left: 45%;
+}
